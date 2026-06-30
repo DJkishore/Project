@@ -31,7 +31,6 @@ export default function Contact() {
 
   return (
     <>
-      {/* Navbar */}
 
       <nav className="flex justify-between items-center px-10 py-5 shadow-md">
         <h1 className="text-3xl font-bold text-blue-600">
@@ -48,8 +47,6 @@ export default function Contact() {
           </Link>
         </div>
       </nav>
-
-      {/* Contact Section */}
 
       <section className="min-h-screen bg-gray-100 flex justify-center items-center py-16">
 
@@ -120,8 +117,7 @@ export default function Contact() {
 
       </section>
 
-      {/* Footer */}
-
+    
       <footer className="bg-gray-900 text-white text-center py-5">
         © 2026 CreativeStudio. All Rights Reserved.
       </footer>
